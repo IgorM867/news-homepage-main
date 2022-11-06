@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  padding: 7vh 10vw;
+  padding: 8vh 10vw;
   font-family: "Inter", sans-serif;
   font-size: 15px;
 }
@@ -13,10 +13,37 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-h1 {
-  font-size: 4rem;
-  font-weight: 800;
-}
 nav span {
   padding: 2vw;
+}
+main {
+  margin-top: 4vh;
+}
+.main-section {
+  display: flex;
+}
+.main-article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 66%;
+}
+.image-web-3-desktop {
+  width: 100%;
+  margin-bottom: 2vh;
+}
+h2 {
+  width: 40%;
+
+  font-size: 4em;
+  line-height: 1em;
+}
+.article-introduction {
+  width: 50%;
+}
+.article-introduction p {
+  width: 50%;
+}
+.read-more {
+  position: relative;
 }
