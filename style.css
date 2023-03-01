@@ -1,0 +1,61 @@
+:root {
+  --soft-orange: hsl(35, 77%, 62%);
+  --soft-red: hsl(5, 85%, 63%);
+
+  --off-white: hsl(36, 100%, 99%);
+  --grayish-blue: hsl(233, 8%, 79%);
+  --dark-grayish-blue: hsl(236, 13%, 42%);
+  --very-dark-blue: hsl(240, 100%, 5%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--off-white);
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 3% auto;
+  width: 70%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+main {
+  display: grid;
+  margin: 3% auto;
+  width: 70%;
+  height: 90vh;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "image-web-3 image-web-3 sidebar "
+    "image-web-3 image-web-3 sidebar"
+    "image-web-3 image-web-3 sidebar"
+    "main main sidebar"
+    "main main sidebar"
+    "footer footer footer";
+}
+.image-web-3 {
+  background-image: url("./assets/images/image-web-3-desktop.jpg");
+  grid-area: image-web-3;
+  background-size: cover;
+  background-position: center;
+}
+aside {
+  background-color: var(--very-dark-blue);
+  color: var(--off-white);
+  grid-area: sidebar;
+}
+aside > header {
+  color: var(--soft-orange);
+}
