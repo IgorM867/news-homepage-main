@@ -39,7 +39,7 @@ main {
   grid-template-rows: 5fr 4fr 4fr;
   grid-template-areas:
     "image-web-3 image-web-3 sidebar "
-    "main main sidebar"
+    "main-header main sidebar"
     "footer footer footer";
 }
 .image-web-3 {
@@ -80,8 +80,27 @@ aside > article:last-child {
 main > header {
   margin: 0;
   display: block;
+  grid-area: main-header;
+  width: 100%;
 }
 main > header > h1 {
-  font-size: 42px;
+  font-size: 4.3vw;
   font-weight: 900;
+  line-height: 1;
+}
+main > article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.1vw;
+}
+main > article > button {
+  width: 50%;
+  background-color: var(--soft-red);
+  color: var(--off-white);
+  border: none;
+  cursor: pointer;
+  height: 25%;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
