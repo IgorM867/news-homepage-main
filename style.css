@@ -29,6 +29,12 @@ nav {
   justify-content: space-between;
   width: 45%;
 }
+nav > .menu-item {
+  cursor: pointer;
+}
+nav > .menu-item:hover {
+  color: var(--soft-orange);
+}
 main {
   display: grid;
   margin: 3% auto;
@@ -64,6 +70,10 @@ aside > article > header {
   margin: 0;
   margin-bottom: 10px;
   width: 100%;
+  cursor: pointer;
+}
+aside > article > header:hover {
+  color: var(--soft-orange);
 }
 aside > article {
   width: 70%;
@@ -103,4 +113,8 @@ main > article > button {
   height: 25%;
   letter-spacing: 3px;
   text-transform: uppercase;
+}
+main > article > button:hover {
+  background-color: black;
+  color: white;
 }
