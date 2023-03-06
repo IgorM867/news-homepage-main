@@ -46,7 +46,7 @@ main {
   grid-template-areas:
     "image-web-3 image-web-3 sidebar "
     "main-header main sidebar"
-    "footer footer footer";
+    "top-1 top-2 top-3";
 }
 .image-web-3 {
   background-image: url("./assets/images/image-web-3-desktop.jpg");
@@ -117,4 +117,38 @@ main > article > button {
 main > article > button:hover {
   background-color: black;
   color: white;
+}
+.top {
+  display: block;
+}
+.top > img {
+  width: 30%;
+  float: left;
+}
+.top > .text {
+  font-size: 15px;
+  margin-left: 6%;
+  width: 64%;
+  float: left;
+}
+.top > .text > h1 {
+  font-size: 36px;
+  color: var(--grayish-blue);
+}
+.top > .text > h2 {
+  font-size: 20px;
+  color: var(--very-dark-blue);
+  cursor: pointer;
+}
+.top > .text > h2:hover {
+  color: var(--soft-red);
+}
+.top-1 {
+  grid-area: top-1;
+}
+.top-2 {
+  grid-area: top-2;
+}
+.top-3 {
+  grid-area: top-3;
 }
