@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![completed design](./screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://news-homepage-main-im.netlify.app/)
+- Solution URL: [Solution](https://your-solution-url.com)
+- Live Site URL: [live site](https://news-homepage-main-im.netlify.app/)
 
 ## My process
 
