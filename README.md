@@ -1,7 +1,6 @@
 # Frontend Mentor - News homepage solution
 
-This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
+This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl).
 ## Table of contents
 
 - [Overview](#overview)
@@ -27,7 +26,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
 - Live Site URL: [live site](https://news-homepage-main-im.netlify.app/)
 
 ## My process
@@ -41,5 +39,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Igor](https://news-homepage-main-im.netlify.app/)
 - Frontend Mentor - [@IgorM867](https://www.frontendmentor.io/profile/IgorM867)
